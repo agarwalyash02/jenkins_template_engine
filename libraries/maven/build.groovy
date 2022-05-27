@@ -1,3 +1,10 @@
 void call(){
-    println "maven: build()"
+    stage('get_env') {
+        steps {
+            sh 'echo hello'
+            // sh 'printenv'
+            // echo $ENV_NAME
+        }
+    }
+    // println "maven: build()"
 }
