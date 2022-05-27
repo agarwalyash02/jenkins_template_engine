@@ -1,9 +1,11 @@
 void call() {
-    stage('get_env') {
+    node{
+        stage('get_env') {
             steps {
                 sh 'echo hello'
                 // sh 'printenv'
                 // echo $ENV_NAME
             }
         }
+    }
 }
