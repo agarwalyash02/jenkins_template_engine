@@ -21,7 +21,8 @@ pipeline {
         // }
         stage('get_env') {
             steps {
-                sh 'ps -aux'
+                //sh 'ps -aux'
+                sh 'echo hello'
             }
         }
     }
