@@ -1,4 +1,5 @@
 libraries{
-  merge = true // allow individual apps to contribute additional libraries
-  test-search
+//   merge = true // allow individual apps to contribute additional libraries
+//   test-search
+    maven
 }
