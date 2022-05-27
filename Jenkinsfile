@@ -1,4 +1,6 @@
+build()
 test-search_deploy()
+
 
 // pipeline {
 //     agent any

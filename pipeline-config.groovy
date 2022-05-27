@@ -1,5 +1,4 @@
-libraries {
-    // clones
-    // deploy
-    test-search
+libraries{
+  merge = true // allow individual apps to contribute additional libraries
+  test-search
 }
