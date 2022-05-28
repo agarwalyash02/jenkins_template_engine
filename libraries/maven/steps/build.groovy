@@ -3,6 +3,9 @@ void call(){
         node {
             sh 'echo hello'
         }
+        node {
+            sh 'echo hey'
+        }
     }
 }
 
