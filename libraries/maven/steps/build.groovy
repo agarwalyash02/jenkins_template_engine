@@ -1,5 +1,5 @@
 void call(){
-    stage('get_env') {
+    stage('print using echo') {
         node {
             sh 'echo hello'
             sh 'echo hey'
@@ -7,6 +7,12 @@ void call(){
         node {
             sh 'echo hell'
             sh 'echo he'
+        }
+    }
+    stage('print env var') {
+        node {
+            sh 'echo hello'
+            sh 'echo hey'
         }
     }
 }
