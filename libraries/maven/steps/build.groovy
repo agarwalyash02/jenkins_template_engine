@@ -1,6 +1,6 @@
 void call(){
     stage('get_env') {
-        steps {
+        node {
             sh 'echo hello'
         }
     }
