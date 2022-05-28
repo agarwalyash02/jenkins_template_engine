@@ -4,6 +4,10 @@ void call(){
             sh 'echo hello'
             sh 'echo hey'
         }
+        node {
+            sh 'echo hell'
+            sh 'echo he'
+        }
     }
 }
 
