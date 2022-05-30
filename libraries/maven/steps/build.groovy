@@ -1,11 +1,7 @@
 void call(){
     if (config.envName == "dev"){
-        environment {
-            service = 'search-dev'
-        }
         stage('print service env'){
             node{
-                // sh 'echo env.service'
                 echo "hello"
                 sh 'printenv'
             }
