@@ -1,8 +1,8 @@
 libraries{ // allow individual apps to contribute additional libraries
 //   test-search
-    maven {
-        envName = "${env.envName}"
-    }
+    // maven {
+    //     envName = "${env.envName}"
+    // }
     test-search
 }
 
