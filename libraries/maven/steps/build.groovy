@@ -7,6 +7,7 @@ void call(){
             node{
                 // sh 'echo env.service'
                 echo "${env.service}"
+                sh 'printenv'
             }
         }
     }
