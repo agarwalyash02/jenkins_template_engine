@@ -1,7 +1,7 @@
 libraries{
-//   merge = true // allow individual apps to contribute additional libraries
+  merge = true // allow individual apps to contribute additional libraries
 //   test-search
-    maven
+    // maven
 }
 
 // application_environments {
