@@ -6,11 +6,11 @@ libraries{
     }
 }
 
-// application_environments{
-//     dev {
-//         name = "dev"
-//     }
-// }
+application_environments{
+    dev {
+        eName = "dev3"
+    }
+}
 
 // application_environments {
 //         // BITBUCKET = credentials('Bitbucket')

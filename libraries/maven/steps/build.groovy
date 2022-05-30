@@ -1,9 +1,10 @@
-void call(){
+void call(app_name){
     stage('print using echo') {
         node {
             sh 'echo hello'
             sh 'echo hey'
             println config.envName
+            println "${app_name.eName}"
         }
         node {
             sh 'echo hell'

@@ -1,4 +1,4 @@
-build()
+build dev
 // test-search_deploy()
 
 
