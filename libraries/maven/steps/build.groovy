@@ -6,7 +6,7 @@ void call(){
         stage('print service env'){
             node{
                 // sh 'echo env.service'
-                echo env.service}
+                echo "hello"
                 sh 'printenv'
             }
         }

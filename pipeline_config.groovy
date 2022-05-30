@@ -4,6 +4,7 @@ libraries{
     maven {
         envName = "${env.envName}"
     }
+    gradle
 }
 
 // application_environments {
