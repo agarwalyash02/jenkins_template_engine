@@ -3,7 +3,7 @@ libraries{ // allow individual apps to contribute additional libraries
     // maven {
     //     envName = "${env.envName}"
     // }
-    search-service
+    search
 }
 
 // application_environments {
