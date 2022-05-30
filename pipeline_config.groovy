@@ -2,7 +2,7 @@ libraries{
 //   merge = true // allow individual apps to contribute additional libraries
 //   test-search
     maven {
-        envName = "dev"
+        envName = "${envName}"
     }
 }
 
