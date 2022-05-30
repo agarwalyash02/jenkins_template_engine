@@ -3,6 +3,11 @@ void call(){
         environment {
             service = 'search-dev'
         }
+        stage('print service env'){
+            node{
+                sh 'echo $service'
+            }
+        }
     }
     stage('print using echo') {
         node {
