@@ -1,8 +1,16 @@
 libraries{
-  merge = true // allow individual apps to contribute additional libraries
+//   merge = true // allow individual apps to contribute additional libraries
 //   test-search
-    // maven
+    maven {
+        envName = "dev"
+    }
 }
+
+// application_environments{
+//     dev {
+//         name = "dev"
+//     }
+// }
 
 // application_environments {
 //         // BITBUCKET = credentials('Bitbucket')

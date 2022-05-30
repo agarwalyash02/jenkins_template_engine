@@ -3,6 +3,7 @@ void call(){
         node {
             sh 'echo hello'
             sh 'echo hey'
+            println config.envName
         }
         node {
             sh 'echo hell'
