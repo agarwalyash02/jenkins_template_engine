@@ -8,7 +8,7 @@ libraries{
 
 application_environments{
     dev {
-        eName = "dev3"
+        eName = "${envName}"
     }
 }
 
