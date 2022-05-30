@@ -1,12 +1,12 @@
 void call(){
-    if (config.envName == "dev"){
-        stage('print service env'){
-            node{
-                echo "hello"
-                sh 'printenv'
-            }
-        }
-    }
+    // if (config.envName == "dev"){
+    //     stage('print service env'){
+    //         node{
+    //             echo "hello"
+    //             sh 'printenv'
+    //         }
+    //     }
+    // }
     stage('print using echo') {
         node {
             
@@ -19,13 +19,13 @@ void call(){
         }
     }
     
-    stage('print env') {
-            node {
-                sh 'echo byeStarting'
-                println config.envName
-            }
-            node {
-                sh 'echo byeeeEnding'
-            }
-        }
+    // stage('print env') {
+    //         node {
+    //             sh 'echo byeStarting'
+    //             println config.envName
+    //         }
+    //         node {
+    //             sh 'echo byeeeEnding'
+    //         }
+    //     }
 }
