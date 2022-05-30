@@ -12,7 +12,7 @@ void call(){
         }
         node {
             sh 'echo heyEnding'
-            ah 'echo $service'
+            sh 'echo $service'
         }
     }
     
