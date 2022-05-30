@@ -1,10 +1,9 @@
-libraries{
-  merge = true // allow individual apps to contribute additional libraries
+libraries{ // allow individual apps to contribute additional libraries
 //   test-search
     maven {
         envName = "${env.envName}"
     }
-    gradle
+    test-search
 }
 
 // application_environments {

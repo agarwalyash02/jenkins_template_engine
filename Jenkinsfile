@@ -1,5 +1,5 @@
 build()
-// test-search_deploy()
+test-search_deploy()
 
 
 // pipeline {
