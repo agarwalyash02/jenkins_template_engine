@@ -1,4 +1,4 @@
-build dev
+build "${env.envName}"
 // test-search_deploy()
 
 

@@ -1,24 +1,12 @@
 void call(app_name){
     stage('print using echo') {
         node {
-            sh 'echo hello'
-            sh 'echo hey'
+            sh 'echo helloStarting'
             println config.envName
             println app_name.eName
         }
         node {
-            sh 'echo hell'
-            sh 'echo he'
-        }
-    }
-    stage('print env var') {
-        node {
-            sh 'echo hello'
-            sh 'echo hey'
+            sh 'echo heyEnding'
         }
     }
 }
-
-// void call(){
-//     println "maven: build()"
-// }
