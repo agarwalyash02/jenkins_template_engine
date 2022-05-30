@@ -4,7 +4,7 @@ void call(app_name){
             sh 'echo hello'
             sh 'echo hey'
             println config.envName
-            println "${app_name.eName}"
+            println app_name.eName
         }
         node {
             sh 'echo hell'

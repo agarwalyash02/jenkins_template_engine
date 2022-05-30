@@ -2,13 +2,13 @@ libraries{
 //   merge = true // allow individual apps to contribute additional libraries
 //   test-search
     maven {
-        envName = "This is ${env.envName}"
+        envName = "${env.envName}"
     }
 }
 
 application_environments{
     dev {
-        eName = "dev3"
+        eName = "${env.envName}"
     }
 }
 
