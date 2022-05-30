@@ -6,12 +6,6 @@ libraries{
     }
 }
 
-application_environments{
-    dev {
-        eName = "${env.envName}"
-    }
-}
-
 // application_environments {
 //         // BITBUCKET = credentials('Bitbucket')
 //         // BRANCH_NAME = 'master'
