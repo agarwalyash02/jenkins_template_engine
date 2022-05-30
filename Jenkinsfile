@@ -1,5 +1,7 @@
 build()
+searchService()
 // test-search_deploy()
+
 
 
 // pipeline {
