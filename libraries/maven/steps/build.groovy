@@ -11,7 +11,7 @@ void call(){
         node {
             sh 'echo helloStarting'
             println config.envName
-            sh 'echo "$env.envName"'
+            // sh 'echo "${env.envName}"'
         }
         // node {
         //     sh 'echo heyEnding'
