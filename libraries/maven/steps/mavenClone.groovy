@@ -1,3 +1,7 @@
 void call(){
-    println "maven running function mavenClone"
+    stage('print maven Clone') {
+        node {
+            println "maven running function mavenClone"
+        }
+    }
 }
