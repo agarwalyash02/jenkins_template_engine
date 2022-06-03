@@ -1,6 +1,6 @@
 libraries{
     maven {
-        config = "${env.envName}"
+        envName = "${env.envName}"
     }
     search
 }
