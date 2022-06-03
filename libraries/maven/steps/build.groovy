@@ -9,15 +9,14 @@ void call(){
     // }
     stage('print using echo') {
         node {
-            
             sh 'echo helloStarting'
             println config.envName
             sh 'echo "${env.envName}"'
         }
-        node {
-            sh 'echo heyEnding'
-            sh 'echo $service'
-        }
+        // node {
+        //     sh 'echo heyEnding'
+        //     sh 'echo $service'
+        // }
     }
     
     // stage('print env') {
