@@ -1,4 +1,3 @@
 mavenClone()
-gradleClone()
 searchService()
 build()
