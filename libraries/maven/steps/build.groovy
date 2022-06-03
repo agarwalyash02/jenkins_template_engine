@@ -13,6 +13,7 @@ void call(){
             println config.envName
             sh 'echo $envName'
             git branch: 'main', url: 'https://github.com/agarwalyash02/jenkins_test_maven'
+            sh 'ls'
             // sh 'echo "${env.envName}"'
         }
         // node {
