@@ -2,7 +2,7 @@ libraries{
     // maven {
     //     envName = "${env.envName}"
     // }
-    // search
-    searchService
+    search
+    // searchService
     firmwide
 }
